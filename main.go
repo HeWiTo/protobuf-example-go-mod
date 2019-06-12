@@ -19,4 +19,9 @@ func doSimple() {
 	}
 
 	fmt.Println(sm)
+
+	sm.Name = "I renamed you"
+	fmt.Println(sm)
+
+	fmt.Println("The ID is: ", sm.Id)
 }
